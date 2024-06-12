@@ -11,7 +11,8 @@ class Widget : public QWidget
 {
     Q_OBJECT
 public slots:
-//    void
+    void slot_CreatePro();
+    void slot_OpenPro();
 
 public:
     Widget(QWidget *parent = nullptr);
